@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <h1>Admin Panel for 7th SEM</h1>
+    <form method="POST" action="/submit7">
+        <div class="row mb-3">
+          <label for="inputEmail3" class="col-sm-2 col-form-label">Name</label>
+          <div class="col-sm-10">
+            <input name="student[name]" type="text" class="form-control" id="inputEmail3">
+          </div>
+        </div>
+        <div class="row mb-3">
+          <label for="inputPassword3" class="col-sm-2 col-form-label">Roll no</label>
+          <div class="col-sm-10">
+            <input name="student[rollNo]" type="text" class="form-control" id="inputPassword3">
+          </div>
+        </div>
+        <div class="row mb-3">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Branch</label>
+            <div class="col-sm-10">
+              <input name="student[branch]"type="text" class="form-control" id="inputPassword3">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Semester</label>
+            <div class="col-sm-10">
+              <input name="student[semester]"type="text" class="form-control" id="inputPassword3">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">WT Lab internal</label>
+            <div class="col-sm-10">
+              <input name="student[wtLabInternal]" type="number" class="form-control" id="inputPassword3">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">WT Lab external</label>
+            <div class="col-sm-10">
+              <input name="student[wtLabExternal]" type="number" class="form-control" id="inputPassword3">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">SQA Theory Internal</label>
+            <div class="col-sm-10">
+              <input name="student[sqaTheoryInternal]" type="number" class="form-control" id="inputPassword3">
+            </div>
+          </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+</body>
+</html>
