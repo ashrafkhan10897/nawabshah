@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Result</title>
+    <title>CIE Results - 2024</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Fontawesome -->
@@ -12,10 +12,10 @@
 <body>
     <img src="/images/nawab-logo.jpeg" class="img-fluid" alt="Nawab logo"/>
     <% if(semester==5){%>
-        <h1 style="text-align: center;">CSE-DS V SEM RESULT</h1>
+        <h3 style="text-align: center;" class="mt-3">CSE-DS V SEM CIE RESULT</h3>
     <% } %>
     <% if(semester==7){%>
-        <h1 style="text-align: center;">CSE VII SEM RESULT</h1>
+        <h3 style="text-align: center;" class="mt-3">CSE VII SEM CIE RESULT</h3>
     <% } %>
     <div class="container-fluid text-center">
         <div class="row">
@@ -43,6 +43,10 @@
                             <td><%= semester%></td>
                         </tr>
                   </table>
+                  <div class="alert alert-info" role="alert">
+                    <h4 class="alert-heading">Important Notice</h4>
+                    The results shown here are related to subjects taught by Former Assistant Professor Syed Misbah.
+                  </div>
             </div>
             <div class="col-md-6">
                 <!-- Bootstrap card for marks -->

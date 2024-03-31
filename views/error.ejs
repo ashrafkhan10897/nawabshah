@@ -4,8 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Error</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-    <h1>Some error occured</h1>
+    <div class="alert alert-danger" role="alert">
+        Roll no does not exist. Contact Former Assistant professor Syed Misbah.
+        <form action="/redirect" method="get">
+            <button class="btn btn-primary">Go back to Results page.</button>
+        </form>
+    </div>
 </body>
 </html>

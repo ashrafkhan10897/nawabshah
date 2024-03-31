@@ -100,7 +100,10 @@ app.get('/result', async (req, res) => {
     }
 });
 
-
+//path to redirect to result page
+app.get("/redirect",(req,res)=>{
+    res.redirect("/");
+})
 
 //Admin path to add marks
 app.get("/admin",(req,res)=>{
